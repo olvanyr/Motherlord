@@ -1,7 +1,7 @@
 {
     "id": "5b2065a7-5838-416a-aeed-1ec72e15673f",
     "modelName": "GMFont",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "fTitle",
     "AntiAlias": 0,
     "TTFName": "",
@@ -10,6 +10,7 @@
     "charset": 0,
     "first": 0,
     "fontName": "DejaVu Sans",
+    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1452,8 +1453,9 @@
             }
         }
     ],
-    "image": null,
+    "hinting": 0,
     "includeTTF": false,
+    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         {
@@ -5754,6 +5756,8 @@
         }
     ],
     "last": 0,
+    "maintainGms1Font": false,
+    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,

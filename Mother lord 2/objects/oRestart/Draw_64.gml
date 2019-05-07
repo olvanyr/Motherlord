@@ -38,7 +38,7 @@ if (mouse_detection(half_width - text_option_w, gui_height - gui_height/5 - text
 	if (device_mouse_check_button_pressed(0,mb_left))
 	{
 		audio_play_sound(sndStart,5,false);
-		room_goto(room0);
+		room_goto(rMenu);
 	}
 	draw_set_color(c_overlap);
 }else play_snd = false;
@@ -47,7 +47,7 @@ if (mouse_detection(half_width - text_option_w, gui_height - gui_height/5 - text
 if (keyboard_check_pressed(vk_enter))
 {
 	audio_play_sound(sndStart,5,false);
-	room_goto(room0);
+	room_goto(rMenu);
 }
 
 draw_set_font(fMenu);
